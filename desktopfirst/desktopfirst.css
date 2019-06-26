@@ -1,0 +1,21 @@
+.box {
+    float: left;
+    width: 30%;
+    height: 50px;
+    background-color: blue;
+    margin: 10px;
+}
+
+@media (max-width: 991px) {
+    .box {
+        background-color: red;
+    }
+}
+
+@media (max-width: 767px) {
+    .box {
+        background-color: #000;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
